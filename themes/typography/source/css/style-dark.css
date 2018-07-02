@@ -272,7 +272,6 @@ h6 {
 body {
   font-size: 18px;
   line-height: 1.5em;
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACJJREFUeNpi/P//Py8DpQCXISBxJlING4QaGEdDiQgAEGAAg8sST3LGZYoAAAAASUVORK5CYII=");
   background-repeat: repeat;
   background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
