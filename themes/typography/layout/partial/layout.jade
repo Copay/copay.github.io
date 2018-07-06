@@ -21,7 +21,12 @@ html(lang="zh-CN")
         script(src= "https://cdn.jsdelivr.net/gh/Copay/copay.github.io@0.01/js/google-analytics.js")
         script(src= "https://cdn.jsdelivr.net/gh/Copay/copay.github.io@0.01/js/typography.js")
         script(src= "https://use.typekit.net/gma8caz.js")
-        script(src= "https://cdn.jsdelivr.net/npm/mathjax@2.7.4/MathJax.js")
-        script MathJax.Hub.Config({jax: ["input/MathML", "output/HTML-CSS"],extensions: ["mml2jax.js","MathMenu.js","MathZoom.js", "AssistiveMML.js", "a11y/accessibility-menu.js"]});
+        script.
+            if(document.body.getElementsByTagName("math").length!==0){
+                let script = document.createElement("script");
+                    script.src = "https://cdn.jsdelivr.net/npm/mathjax@2.7.4/MathJax.js";
+                    script.onload = function(){MathJax.Hub.Config({jax: ["input/MathML", "output/HTML-CSS"],extensions: ["mml2jax.js","MathMenu.js","MathZoom.js", "AssistiveMML.js", "a11y/accessibility-menu.js"]})};
+                document.body.appendChild(script);
+            }
         script try{Typekit.load({ async: true });}catch(e){}
 
