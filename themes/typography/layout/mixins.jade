@@ -36,7 +36,7 @@ mixin make_post(item, is_detail)
             p.post-abstract!= item.content
         else
             -if(item.content.indexOf("<hr>")!==-1)
-                p.post-abstract!= truncate(strip_html(item.content), {length: item.content.indexOf("<hr>")})
+                p.post-abstract!= strip_html(truncate(item.content, {length: item.content.indexOf("<hr>")}))
             -else
                 p.post-abstract!= truncate(strip_html(item.content), {length: 160})
 
