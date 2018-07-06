@@ -1,7 +1,8 @@
 div#gitment
+link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/gitment@0.0.3/style/default.min.css")
 script.
     let scr = document.createElement("script");
-        scr.src = "https://cdn.jsdelivr.net/npm/gitment@0.0.3/dist/gitment.min.js";
+        scr.src = "https://cdn.jsdelivr.net/npm/gitment@0.0.3/dist/gitment.browser.min.js";
         scr.onload = function(){
             window.gitment = new Gitment({
                 owner: "Copay",
