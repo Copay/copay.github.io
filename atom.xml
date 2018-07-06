@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Corps Works</title>
+  
+  <subtitle>Works on study</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://copay.github.io/"/>
+  <updated>2018-07-06T06:20:27.744Z</updated>
+  <id>https://copay.github.io/</id>
+  
+  <author>
+    <name>Corps</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>选修4-2 笔记</title>
+    <link href="https://copay.github.io/2018/07/05/4-2/"/>
+    <id>https://copay.github.io/2018/07/05/4-2/</id>
+    <published>2018-07-05T13:47:00.000Z</published>
+    <updated>2018-07-06T06:20:27.744Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;本文为我浏览数学选修4-2时的记录等,兼Mathjax测试.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;变换:&lt;/p&gt;
+&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mfenced open=&quot;{&quot; close=&quot;&quot;&gt;&lt;mtable
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Note" scheme="https://copay.github.io/tags/Note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>论隐私</title>
+    <link href="https://copay.github.io/2018/05/27/%E9%9A%90%E7%A7%81/"/>
+    <id>https://copay.github.io/2018/05/27/隐私/</id>
+    <published>2018-05-27T08:09:11.000Z</published>
+    <updated>2018-07-06T06:20:27.744Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;论隐私&quot;&gt;&lt;a href=&quot;#论隐私&quot; class=&quot;headerlink&quot; title=&quot;论隐私&quot;&gt;&lt;/a&gt;论隐私&lt;/h2&gt;&lt;h3 id=&quot;–关于学生的隐私权被其责任人侵犯这一普遍社会现象的看法。&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Log" scheme="https://copay.github.io/tags/Log/"/>
+    
+  </entry>
+  
+</feed>
