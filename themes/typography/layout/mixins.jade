@@ -36,8 +36,7 @@ mixin make_post(item, is_detail)
             p.post-abstract!= item.content
         else
             -if(item.content.indexOf("<!-- more -->")!==-1||item.content.indexOf("<!--more-->")!==-1)
-                -console.log(item.content.indexOf("<!-- more -->")!==-1?length: item.content.indexOf("<!-- more -->"):item.content.indexOf("<!--more-->"));
-                p.post-abstract!= truncate(strip_html(item.content), {length: 160})
+                p.post-abstract!= truncate(strip_html(item.content), {length: item.content.indexOf("<!-- more -->")!==-1?item.content.indexOf("<!-- more -->"):item.content.indexOf("<!--more-->")})
             -else
                 p.post-abstract!= truncate(strip_html(item.content), {length: 160})
 
