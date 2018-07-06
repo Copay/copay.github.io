@@ -37,7 +37,7 @@ mixin make_post(item, is_detail)
         else
             -if( item.content.indexOf("<!-- more -->")!==-1||item.content.indexOf("<!--more-->")!==-1)
                 - var len = item.content.indexOf("<!-- more -->")!==-1?length: item.content.indexOf("<!-- more -->"):item.content.indexOf("<!--more-->")
-                p.post-abstract!= strip_html(truncate(item.content, {length:len }))
+                p.post-abstract!= len
             -else
                 p.post-abstract!= truncate(strip_html(item.content), {length: 160})
 
