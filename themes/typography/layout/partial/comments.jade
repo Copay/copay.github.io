@@ -1,6 +1,6 @@
 div#gitment
 link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/gitment@0.0.3/style/default.min.css")
-script let scr = document.createElement("script");scr.src = "https://cdn.jsdelivr.net/npm/gitment@0.0.3/dist/gitment.browser.min.js";scr.onload = function(){window.gitment = new Gitment({owner: "Copay",id: "#{page.title}",repo: "copay.github.io",oauth: {client_id: "8ab09bdc66eda283cfdc",client_secret: "4611d4c2657115c94a0cb3dd3ec6e6a8bb69a78a"}});window.gitment.render(document.body.querySelector("#gitment"))}document.body.appendChild(scr);
+script let scr = document.createElement("script");scr.src = "https://cdn.jsdelivr.net/npm/gitment@0.0.3/dist/gitment.browser.min.js";scr.onload = function(){window.gitment = new Gitment({owner: "Copay",id: "#{page.title}",repo: "copay.github.io",oauth: {client_id: "8ab09bdc66eda283cfdc",client_secret: "4611d4c2657115c94a0cb3dd3ec6e6a8bb69a78a"}});window.gitment.render(document.body.querySelector("#gitment"))};document.body.appendChild(scr);
 
 if theme.disqus
     a#comments
