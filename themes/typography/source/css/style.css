@@ -728,7 +728,8 @@ figure .code pre {
   border: 0; }
 
 .post-container > p {
-  text-indent: 2em; }
+  text-indent: 2em;
+  text-align: justify; }
 
 .post-container .post-title, .post-container .post-meta, .post-container .post-abstract {
   text-indent: 0; }
