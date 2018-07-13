@@ -685,3 +685,11 @@ figure .code pre {
 #gitment *{
   border:0;
 }
+.post-container>p {
+  text-indent: 2em;
+}
+.post-container{
+  .post-title,.post-meta,.post-abstract{
+    text-indent:0;
+  }
+}
