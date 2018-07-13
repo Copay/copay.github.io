@@ -233,6 +233,7 @@ font-family: "PT Serif", "Source Han Serif CN", "Source Han Serif SC", "Source H
  "Source Han Sans TC", "PingFang SC", "PingFang HK", "PingFang TC", "Source Sans Pro", sans-serif;
  */
   line-height: 1.65;
+  letter-spacing: 0.05em;
   font-family: "Source Sans Pro", "Roboto", "Helvetica", "Helvetica Neue", "source-han-serif-sc", "Source Han Sans SC", "Source Han Sans TC", "PingFang SC", "PingFang HK", "PingFang TC", sans-serif;
   color: #2e405b; }
 
