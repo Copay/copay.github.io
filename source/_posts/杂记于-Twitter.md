@@ -95,3 +95,9 @@ ta的翻墙主要只是工作需求（不排除某专业户）。
 您的做法将损害所有其他使用者的权益，
 您的做法将加快中国互联网局域网化。
 我觉得您的目的也不在此吧？
+
+<style>
+.post-container p {
+    text-align: center !important;
+}
+</style>
