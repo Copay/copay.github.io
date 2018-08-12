@@ -1,7 +1,7 @@
 ---
 title: 杂记于 Twitter
 date: 2018-08-11 02:04:20
-tags: 杂记
+tags: Log
 ---
 
 以下内容来自我的 twitter。
