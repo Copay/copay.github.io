@@ -19,11 +19,11 @@ meta(content="telephone=no",name="format-detection")
 
 meta(name="renderer",content="webkit")
 link(rel="short icon", href="/images/favicon.png",type="image/x-icon")
-link(rel="stylesheet", href= "https://cdn.jsdelivr.net/gh/Copay/copay.github.io@0.01/css/bootstrap.min.css")
-link(rel="stylesheet", href= "https://cdn.jsdelivr.net/gh/Copay/copay.github.io@0.01/css/font-awesome.min.css")
+link(rel="stylesheet", href= url_for("css/bootstrap.min.css"))
+link(rel="stylesheet", href= url_for("css/font-awesome.min.css"))
 //- link(rel="stylesheet", href= url_for('css/typography-custom-font.css'))
 if theme.themeStyle == "light"
-    link(rel="stylesheet", href= "https://cdn.jsdelivr.net/gh/Copay/copay.github.io@0.08/css/style.min.css")
+    link(rel="stylesheet", href= url_for('css/style.min.css'))
 if theme.themeStyle == "dark"
     link(rel="stylesheet", href= url_for('css/style-dark.css'))
 link(rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml")
