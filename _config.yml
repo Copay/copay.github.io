@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Corps Works
-subtitle: Works on study
-description: A blog recording my works and ideas
+title: Sinofine
+subtitle: Another work.
+description: personal homepage of Sinofine
 keywords: Works
-author: Corps
+author: Sinofine
 language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://corps.js.org
+url: https://sinofine.me
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
