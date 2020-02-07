@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sinofine</title>
+  
+  <subtitle>Another work.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://sinofine.me/"/>
+  <updated>2020-02-07T15:17:45.277Z</updated>
+  <id>https://sinofine.me/</id>
+  
+  <author>
+    <name>Sinofine</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>論辯的魂靈</title>
+    <link href="https://sinofine.me/2018/07/21/%E8%AE%BA%E8%BE%A9%E7%9A%84%E9%AD%82%E7%81%B5/"/>
+    <id>https://sinofine.me/2018/07/21/论辩的魂灵/</id>
+    <published>2018-07-21T01:30:00.000Z</published>
+    <updated>2020-02-07T15:17:45.277Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;鲁迅，华盖集，公有领域。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;二十年前到黑市，買得一張符，名叫「鬼畫符」。雖然不過一團糟，但帖在壁上看起來，卻隨時顯出各樣的文字，是處世的寶訓，立身的金箴。今年又到黑市去，又買得一張符，也是「鬼畫符」。但帖了起來看，也還是那一張，並不見什麼增補和修改。今
+        
+      
+    
+    </summary>
+    
+    
+      <category term="鲁迅文集" scheme="https://sinofine.me/tags/%E9%B2%81%E8%BF%85%E6%96%87%E9%9B%86/"/>
+    
+  </entry>
+  
+</feed>
